@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="showApps">Mostrar apps</string>
+
+    <string name="settings">Ajustes</string>
+    <string name="changeWallpaper">Cambiar el fondo de pantalla</string>
+    <string name="wallpaperChangedSuccess">¡Se ha cambiado el fondo de pantalla correctamente! :)</string>
+    <string name="manageAccounts">Administrar cuentas</string>
+    <string name="titleBar">¿Mostrar barra de título?</string>
+
+    <string name="MalformedURLException">Ruta de la imagen inválida</string>
+    <string name="IOException">No se pudo abrir la imagen seleccionada</string>
+
+    <string name="title_activity_password">Introduzca la contraseña</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="pwRestored">El servicio de la contraseña se ha reiniciado correctamente</string>
+
+    <string name="title_activity_accounts_list">Cuentas</string>
+    <string name="title_activity_edit_account">Editar cuenta</string>
+
+    <string name="search">Buscar aplicaciones</string>
+    <string name="searchHint">Buscar aplicaciones…</string>
+    <string name="title_activity_apps_list">Tus aplicaciones</string>
+    <string name="addAccount">Añadir cuenta</string>
+    <string name="password">Contraseña</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="save">Guardar cuenta</string>
+    <string name="emptyFields">Hay campos vacíos. Por favor rellénelos antes de guardar</string>
+    <string name="delete">Eliminar cuenta</string>
+    <string name="deleteRoot">No puedes eliminar la cuenta root</string>
+    <string name="allowedApps">Editar aplicaciones permitidas</string>
+    <string name="allowApps">Aplicaciones permitidas</string>
+    <string name="accept">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="showPass">Mostrar contraseña</string>
+    <string name="cannotRoot">El nombre de la cuenta no puede ser root</string>
+    <string name="invalidPass">Contraseña incorrecta</string>
+    <string name="cannotAddUntil">No se pueden añadir más cuentas hasta que la de root tenga una contraseña</string>
+    <string name="milsToVibrate">Tiempo (en milisegundos) durante el cual vibrar al pulsar el botón de Mostrar aplicaciones</string>
+    <string name="update">Actualizar</string>
+    <string name="msUpdated">Milisegundos actualizados correctamente</string>
+    <string name="madeBy">Aplicación creada por Lonami | LonamiWebs © 2014</string>
+    <string name="loading">Cargando aplicaciones...</string>
+    <string name="uninstall">Desinstalar aplicación</string>
+    <string name="appNotInstalled">La aplicación no está instalada</string>
+
+</resources>

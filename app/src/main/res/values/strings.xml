@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Quick Launcher</string>
+    <string name="showApps">Show apps</string>
+    <string name="settings">Settings</string>
+    <string name="changeWallpaper">Change wallpaper</string>
+    <string name="wallpaperChangedSuccess">Wallpaper changed successfully! :)</string>
+    <string name="manageAccounts">Manage accounts</string>
+    <string name="titleBar">Show title bar?</string>
+    <string name="MalformedURLException">Invalid image path</string>
+    <string name="IOException">Could not open the selected image</string>
+    <string name="title_activity_password">Enter the password</string>
+    <string name="action_settings">Settings</string>
+    <string name="pwRestored">Password service has been restored successfully</string>
+    <string name="title_activity_accounts_list">Accounts</string>
+    <string name="title_activity_edit_account">Edit account</string>
+    <string name="search">Search apps</string>
+    <string name="searchHint">Search apps…</string>
+    <string name="title_activity_apps_list">Your apps</string>
+    <string name="addAccount">Add account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="save">Save account</string>
+    <string name="emptyFields">There are empty fields. Please fill them before saving</string>
+    <string name="delete">Delete account</string>
+    <string name="deleteRoot">You cannot remove the root account</string>
+    <string name="allowedApps">Edit allowed apps</string>
+    <string name="allowApps">Allowed apps</string>
+    <string name="accept">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="showPass">Show password</string>
+    <string name="cannotRoot">You cannot set the account name to root</string>
+    <string name="invalidPass">Invalid password</string>
+    <string name="cannotAddUntil">Cannot add more accounts until the root account has a password set</string>
+    <string name="milsToVibrate">Time (in milliseconds) to vibrate when the Show apps button is pressed</string>
+    <string name="update">Update</string>
+    <string name="msUpdated">Milliseconds updated successfully</string>
+    <string name="madeBy">Application made by Lonami | LonamiWebs © 2014</string>
+    <string name="loading">Loading apps...</string>
+    <string name="uninstall">Uninstall application</string>
+    <string name="appNotInstalled">The application is not installed</string>
+
+</resources>

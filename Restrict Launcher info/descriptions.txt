@@ -1,0 +1,41 @@
+[English]
+
+= Short =
+Use Quick Launcher to restrict the apps you wish to others
+
+= Long ==
+Aren't you the only one who is using your phone? Don't you like when others open the applications they don't have to open? With Quick Launcher you will be able to create multiple users so they acceed to the apps you wish only. With a super simple design and quite light weight, you will start your favourite applications in milliseconds
+You will be able to change the wallpaper from Quick Launcher settings and decide whether seeing the notification bar or not.
+To modify these settings, press the menu button while in the main screen.
+
+In the next update you will be able to add icons to the main desktop.
+
+
+= Features =
+Create as many accounts as you wish
+Choose the applications you wish others to use
+Change the wallpaper from Quick Launcher
+Open your applications quickly by searching them
+
+launcher,simple,minimalist,easy,accounts
+
+
+
+[Spanish]
+
+= Short =
+Usa Quick Launcher para restringir a otros las aplicaciones que quieras
+
+
+= Long ==
+¿No eres el único que utiliza tu teléfono? ¿No te gusta que los demás se metan donde no deben? Con Quick Launcher podrás crear distintos usuarios para que puedan acceder solo a las aplicaciones que tú quieras. Con un diseño ultra sencillo y muy ligero, tendrás tus aplicaciones en apenas décimas de segundos, y podrás acceder a ellas igual de rápido.
+Podrás cambiar el fondo de pantalla desde la aplicación y decidir si quieres que se vea la barra de notificaciones o no.
+		
+Próximamente se podrán añadir iconos a la pantalla principal.
+
+
+= Features =
+Crea tantas cuentas como quieras
+Elige las aplicaciones que quieres que usen el resto de cuentas
+Cambia el fondo de pantalla desde la aplicación
+Accede a tus aplicaciones rápidamente buscándolas

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tk.lonamiwebs.QuickLauncher" >
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen"
+            android:stateNotNeeded="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AppsListActivity"
+            android:label="@string/title_activity_apps_list"
+            android:parentActivityName=".HomeActivity" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.lonamiwebs.QuickLauncher.HomeActivity" />
+
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/settings"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.lonamiwebs.QuickLauncher.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".PasswordActivity"
+            android:label="@string/title_activity_password" >
+        </activity>
+
+        <service android:name=".ScreenOffService" />
+
+        <activity
+            android:name=".AccountsListActivity"
+            android:label="@string/title_activity_accounts_list" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.lonamiwebs.QuickLauncher.SettingsActivity" />
+        </activity>
+        <activity
+            android:name=".EditAccountActivity"
+            android:label="@string/title_activity_edit_account" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.lonamiwebs.QuickLauncher.AccountsListActivity" />
+        </activity>
+    </application>
+
+</manifest>

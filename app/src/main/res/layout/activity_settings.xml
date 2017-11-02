@@ -1,0 +1,70 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="tk.lonamiwebs.QuickLauncher.SettingsActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/changeWallpaper"
+        android:onClick="changeWallpaper" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manageAccounts"
+        android:onClick="manageAccounts" />
+
+    <CheckBox
+        android:id="@+id/toggleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleBar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/milsToVibrate"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3" >
+
+        <EditText
+            android:id="@+id/millisecondsET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="100"
+            android:maxLength="3"
+            android:inputType="number"
+            android:layout_weight="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/update"
+            android:onClick="updateMs" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/madeBy"
+        android:layout_marginTop="69dp"/>
+
+
+</LinearLayout>
+</ScrollView>
